@@ -1,5 +1,7 @@
 <ion-tabs>
-
+  <div slot="top">
+    <ion-button (click)="setScrollForActiveTab()">Scroll to top</ion-button>
+  </div>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="tab1">
       <ion-icon name="triangle"></ion-icon>
@@ -16,5 +18,4 @@
       <ion-label>Tab 3</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
-
 </ion-tabs>
